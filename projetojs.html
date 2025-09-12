@@ -4,21 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>peso-saude</title>
-    <script src="projetojs.js"></script>
-    <link rel="stylesheet" href="estilos.css">
+    <script src="funcaojavas.js"></script>
 </head>
 <body>
-    <h1>preencha seus dados</h1>
-    <form>
-        <label for="altura">Altura (em metros):</label>
-        <input type="number" id="altura" step="0.01" required>
-        <br><br>
-        <label for="peso">Peso (em kg):</label>
-        <input type="number" id="peso" step="0.1" required>
-        <br><br>
-        <button type="button" onclick="calcularIMC()">Calcular IMC</button>
-        <br><br>
-        <div id="resultado"></div>
-    </form>
+    <label for="peso">peso(kg)</label>
+    <input tipe="number" id="peso" placeholder="peso em kg">
+
+    <label for="altura">altura(m)</label>
+    <imput tipe="number" id="altura" placeholder="altura em metros"></imput>
+
+    <button onclick="cacular(imc)">calcular imc</button>
 </body>
 </html>
